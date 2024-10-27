@@ -1,0 +1,19 @@
+import random
+
+def play():
+    choices = ["rock", "paper", "scissors"]
+    computer_choice = random.choice(choices)
+    player_choice = input("Enter rock, paper, or scissors: ").lower()
+    
+    if player_choice not in choices:
+        print("Invalid choice!")
+    elif player_choice == computer_choice:
+        print(f"Both chose {player_choice}. It's a tie!")
+    elif (player_choice == "rock" and computer_choice == "scissors") or \
+         (player_choice == "scissors" and computer_choice == "paper") or \
+         (player_choice == "paper" and computer_choice == "rock"):
+        print(f"You chose {player_choice} and the computer chose {computer_choice}. You win!")
+    else:
+        print(f"You chose {player_choice} and the computer chose {computer_choice}. You lose!")
+
+play()
