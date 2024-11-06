@@ -5,7 +5,7 @@ c=a+b
 print("="*50)
 print("Val of a={}".format(a))
 print("Val of b={}".format(b))
-print("sum({},{})={}".format(a,b,c))
+print("sum({},{})={}".format(a,b,c)) 
 print("="*50)
  
  
