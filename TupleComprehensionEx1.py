@@ -5,3 +5,4 @@ x=(int(val) for val in input().split()) # feeling that It is tuple Comprehension
 t=tuple(x) # Type Casting generator object into tuple object
 print("Elements in tuple=",t)
 print(type(t))
+ 
