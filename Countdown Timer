@@ -10,5 +10,5 @@ def countdown(seconds):
     print("Time's up!")
 
 seconds = int(input("Enter time in seconds: "))
-countdown(seconds)
+countdown(seconds) 
  
