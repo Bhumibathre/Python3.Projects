@@ -11,6 +11,6 @@ for ch in s:
             print(ch,end="")
     else:
         print(ch,end="")
-
+ 
 
 
