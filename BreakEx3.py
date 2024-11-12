@@ -6,7 +6,7 @@ for ch in s:
     if(ch=="I"):
         ictr=ictr+1
         if(ictr==2):
-            break
+            break 
         else:
             print(ch,end="")
     else:
